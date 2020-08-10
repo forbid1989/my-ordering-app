@@ -1,0 +1,23 @@
+.ItemDetailPage{
+
+    padding-top: 20px;
+
+}
+
+.Checked {
+
+    color: orange;
+
+}
+
+.Block {
+
+    display: inline-block
+
+}
+
+.OrderButton{
+
+    border-radius: 12px;
+    
+}

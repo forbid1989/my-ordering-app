@@ -1,0 +1,17 @@
+.Checked {
+
+    color: orange;
+
+}
+
+.Block {
+
+    display: inline-block
+
+}
+
+.Cursor {
+
+    cursor: pointer;
+    
+}

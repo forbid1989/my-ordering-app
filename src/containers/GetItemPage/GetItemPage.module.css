@@ -1,0 +1,52 @@
+.GetItemPage {
+
+    padding-top: 50px;
+
+}
+
+.Block {
+
+    display: inline-block
+
+}
+
+.RemoveMargins {
+
+    margin: 0px
+
+}
+
+.Paddings {
+
+    padding: 0 10px;
+
+}
+
+.OptimalFontSize {
+
+    font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+
+}
+
+.CustomTextArea {
+
+	height: 120px;
+	border: 3px solid #cccccc;
+    padding: 5px;
+    border-radius: 20px;
+    resize: none;
+    
+}
+
+.CustomTextArea:focus {
+
+    outline:none;
+    
+}
+
+.OrderButton {
+
+    border-radius: 12px;
+    
+}
