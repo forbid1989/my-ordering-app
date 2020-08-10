@@ -20,6 +20,7 @@ const orderNowPage = (props) => {
                 addItemQuantity = {props.addItemQuantity}
                 removeItemQuantity = {props.removeItemQuantity}
                 updateItemNote = {props.updateItemNote}
+                zeroOutItemQuantity = {props.zeroOutItemQuantity}
             />
 
         });

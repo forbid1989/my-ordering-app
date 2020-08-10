@@ -115,6 +115,21 @@ class App extends Component {
 
   }
 
+  zeroOutItemQuantity = (id) => {
+
+    let updateOrder = this.state.dataSet[id];
+    let updatedDataset = [...this.state.dataSet]
+
+    updateOrder.quantity = 0;
+    updatedDataset[id] = updateOrder;
+    this.setState({dataSet: updatedDataset});
+
+    if(this.checkIfReadyToOrder() <= 0) {
+      this.switchPage('Menu');
+    }
+
+  }
+
   updateItemNote = (event, id) => {
 
     let updateOrder = this.state.dataSet[id];
@@ -187,6 +202,7 @@ class App extends Component {
         addItemQuantity = {this.addItemQuantity}
         removeItemQuantity = {this.removeItemQuantity}
         updateItemNote = {this.updateItemNote}
+        zeroOutItemQuantity = {this.zeroOutItemQuantity}
       />
 
     </OrderNowPageLayout>

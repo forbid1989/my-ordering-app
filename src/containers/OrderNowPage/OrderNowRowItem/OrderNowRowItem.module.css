@@ -38,3 +38,16 @@
     outline:none;
     
 }
+
+.AddMarginTop {
+
+    margin-top: 10px;
+
+}
+
+.OrderButton {
+
+    border-radius: 25px;
+    margin-bottom: 30px;
+    
+}

@@ -20,6 +20,12 @@ const orderNowRowItem = (props) => {
                             <h2 className={`${classes.Paddings} ${classes.RemoveMargins} grey-text text-darken-1`}>{props.data.quantity}</h2>
                         <button className={`btn-floating pulse`} onClick={()=>props.addItemQuantity(props.data.id, props.data.quantity)}><i className="material-icons">add</i></button>
                     </div>
+                    <div>
+                    <button 
+                        className={`btn waves-effect waves-light ${classes.OrderButton} ${classes.AddMarginTop} pink darken-3`}
+                        onClick={()=>props.zeroOutItemQuantity(props.data.id)}
+                    >Remove Item</button>
+                    </div>
                 </div>
             </div>
             <div className="row">
